@@ -394,7 +394,7 @@ web_search_agent = WebSearchAgent()
 # Create uAgent
 agent = Agent(
     name="asi_exa_search_agent",
-    port=8081,
+    port=8080,
     seed="asi exa search agent seed",
     mailbox=True,
     endpoint=["http://localhost:8081/submit"]
