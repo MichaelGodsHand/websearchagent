@@ -393,11 +393,11 @@ web_search_agent = WebSearchAgent()
 
 # Create uAgent
 agent = Agent(
-    name="brandx_web_search_agent",
+    name="brandx_web_search_agent_v2",
     port=8080,
-    seed="brandx web search agent seed",
+    seed="brandx web search agent seed v2",
     mailbox=True,
-    endpoint=["http://localhost:8080/submit"]
+    endpoint=["https://websearchagent-739298578243.us-central1.run.app/submit"]
 )
 
 # Initialize the chat protocol
