@@ -396,8 +396,8 @@ agent = Agent(
     name="brandx_web_search_agent",
     port=8080,
     seed="brandx web search agent seed",
-    mailbox=True,
-    endpoint=["https://websearchagent-739298578243.us-central1.run.app/submit"]
+    proxy=True,
+    endpoint=["https://agentverse.ai/v1/proxy"]
 )
 
 # Initialize the chat protocol
