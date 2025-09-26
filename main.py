@@ -397,7 +397,7 @@ agent = Agent(
     port=8080,
     seed="brandx web search agent seed",
     mailbox=True,
-    endpoint=["https://websearchagent-739298578243.us-central1.run.app"]
+    endpoint=["https://websearchagent-739298578243.us-central1.run.app/submit"]
 )
 
 # Initialize the chat protocol
