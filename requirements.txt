@@ -3,7 +3,7 @@ requests
 python-dotenv
 exa-py
 
-# MCP (Model Context Protocol) dependencies
+# MCP (Model Context Protocol) dependenciess
 mcp
 
 # FastAPI and web server dependencies
